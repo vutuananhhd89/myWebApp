@@ -2,6 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // a change
+// 2nd change in feature branch
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
